@@ -5,10 +5,11 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import designer from '../assets/designer.jpg';
+import redDress from '../assets/redDress.jpg';
 
 const footerImages = [
   'https://images.unsplash.com/photo-1519741497674-611481863552?w=200&q=80',
-  'https://images.unsplash.com/photo-1594938298603-c8148c4b4053?w=200&q=80',
+  redDress,
   'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=200&q=80',
   'https://images.unsplash.com/photo-1596783074918-c84cb06531ca?w=200&q=80',
   'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=200&q=80',
