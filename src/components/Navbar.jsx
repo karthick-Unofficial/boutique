@@ -16,7 +16,6 @@ const styles = {
     backgroundColor: '#FDF8F5',
     boxShadow: 'none',
     borderBottom: '1px solid #F0E0DC',
-    position: 'sticky',
     top: 0,
     zIndex: 1100,
     position: "fixed"
@@ -87,7 +86,7 @@ export default function Navbar() {
 
           {/* Brand Name */}
           <Typography sx={styles.brandName}>
-            Boutique Name
+            Parsa Design
           </Typography>
 
           {/* Right Icons */}
@@ -105,7 +104,7 @@ export default function Navbar() {
         <Box sx={{ width: 260, bgcolor: '#FDF8F5', height: '100%', p: 2 }}>
           <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 3 }}>
             <Typography sx={{ fontFamily: '"Great Vibes", cursive', fontSize: '1.6rem', color: '#3D2B2E' }}>
-              Boutique Name
+              Parsa Design
             </Typography>
             <IconButton onClick={() => setDrawerOpen(false)}><CloseIcon /></IconButton>
           </Box>

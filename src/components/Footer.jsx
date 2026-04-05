@@ -149,7 +149,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <Box sx={{ py: 2, px: { xs: 2, md: 6 }, textAlign: 'center' }}>
         <Typography sx={{ fontFamily: '"Raleway", sans-serif', fontWeight: 300, fontSize: '0.75rem', color: '#9C7A7E' }}>
-          © {new Date().getFullYear()} Boutique Name. All rights reserved.
+          © {new Date().getFullYear()} Parsa Design. All rights reserved.
         </Typography>
       </Box>
     </Box>
